@@ -50,7 +50,6 @@ body{
 
 #seccion-uno{
 	background-color: $background_principal;
-	height: 100vh;
 }
 
 .contenedor__item{
@@ -196,3 +195,16 @@ body{
 	}
 }
 
+.final{
+	background:$background_principal;
+	width: 100%;
+	border-top: 2px solid white;
+	margin-top: 10px 0;
+}
+.final__item--center{
+	font-size:16px;
+	color:$color_letra;
+	padding:20px;
+	margin:0;
+	font-weight: 600;
+}

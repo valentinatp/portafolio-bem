@@ -43,8 +43,7 @@ body {
     border: 2px solid #203748; }
 
 #seccion-uno {
-  background-color: #203748;
-  height: 100vh; }
+  background-color: #203748; }
 
 .contenedor__item {
   background-color: #efefef;
@@ -160,5 +159,18 @@ body {
       font-size: 25px;
       transition: 0.5s;
       color: #fff; }
+
+.final {
+  background: #203748;
+  width: 100%;
+  border-top: 2px solid white;
+  margin-top: 10px 0; }
+
+.final__item--center {
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+  font-weight: 600; }
 
 /*# sourceMappingURL=main.css.map */
