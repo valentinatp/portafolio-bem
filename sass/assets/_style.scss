@@ -15,7 +15,7 @@ body{
 .a-menu__item{
 	display:inline-block;
 	font-size:20px;
-	color:white;
+	color: $color_letra;
 	padding:0;
 }
 .a-menu__item__link{
@@ -23,7 +23,7 @@ body{
 	text-decoration:none;
 	padding: 15px;
 	&:hover{
-		color:$hover;
+		color:$background_principal;
 		text-decoration:none;
 	}
 }
@@ -32,6 +32,9 @@ body{
 	padding: 10px 15px;
 	background-color: $background_principal;
 	border-radius: 20px;
+	&:hover{
+		background-color: $color_boton;
+	}
 } 
 
 #perfil{
@@ -56,22 +59,140 @@ body{
 	width: 200px;
 	margin: 30px;
 	border-radius: 50%;
+	&:hover{
+		background-color: $background_nav;
+		border: 4px solid white;
+		transition: 0.5s;
+	}
 }
 
 .contenedor__item__title{
 	margin:65px 0;
 	font-weight: 600;
 	font-size: 50px;
+	&:hover{
+		color: $color_letra;
+		transition: 0.5s;
+	}
 }
 
+.texto__item{
+	margin: 100px 0;
+}
 .texto__titulo{
 	color:$color_boton;
 }
 
-.texto__titulo_sub h4{
+.texto__titulo_sub{
 	color: $color_letra;
 }
 
 .texto__titulo__parrafo{
 	color: white;
 }
+
+.boton{
+	background-color: $color_boton;
+	border-radius: 20px;
+	border: none;
+	padding: 15px 15px;
+	color: $color_letra;
+	&:hover{
+		background-color: $background_nav;
+		border: 3px solid white;
+	}
+}
+
+.redes-sociales__fondo{
+	width: 45px;
+	height: 45px;
+	margin: 20px 20px;
+	border-radius: 50%;
+	&:hover{
+		width:50px;
+		height:50px;
+		border: 3px solid white;
+	}
+		& i{
+			font-size: 30px;
+			padding: 8px 5px;
+			cursor: pointer;
+			&:hover{
+				font-size: 35px;
+				transition: 0.5s;
+			}
+		}
+}
+
+#fb{
+	color: $color_letra;
+	background-color: $color_fb;
+}
+
+#tw{
+	color: $color_letra;
+	background-color: $color_tw;
+}
+
+#gg{
+	color: $color_letra;
+	background-color: $color_gg;
+}
+
+#pint{
+	color: $color_letra;
+	background-color: $color_pin;
+}
+
+#dr{
+	color: $color_letra;
+	background-color: $color_dd;
+}
+
+#seccion-dos{
+	background-color: $background_principal;
+}
+
+.imagen-gato{
+	margin:30px 0;
+}
+
+
+.a-respuesta{
+	background-color: black;
+	h3{
+		color: $color_letra;
+		text-decoration: none;
+		background-color: $background_nav;
+		padding: 10px 0;
+		text-transform: uppercase;	
+		margin: 0;
+		border-bottom: 2px solid white;
+		border: 2px solid white;
+		&:hover{
+			font-size:20px;
+			transition: 0.5s;
+		}
+
+	}
+}
+
+.a-respuesta__item{
+	background-color:$background_nav;
+	margin:0;
+	list-style: none;
+	color: $background_principal;
+	font-weight: 600;
+	font-size: 20px;
+	border: 2px solid white;
+	& i{
+		color: $background_principal;
+		font-size: 20px;
+			&:hover{
+			font-size: 25px;
+			transition: 0.5s;
+			color: $color_letra;
+		}
+	}
+}
+
